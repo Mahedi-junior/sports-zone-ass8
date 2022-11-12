@@ -1,0 +1,8 @@
+.question {
+  padding: 20 30px;
+  margin: 50px;
+}
+.question p,
+li {
+  font-size: 20px;
+}

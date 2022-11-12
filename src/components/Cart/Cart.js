@@ -59,7 +59,7 @@ const Cart = (props) => {
       <h3>Exercise Details</h3>
       <div className="ex-time">
         <p>
-          Playing time: <span className="total-time">{time}min</span>
+          Require time: <span className="total-time">{time}min</span>
         </p>
         <p>Break time: {breakTime}</p>
       </div>

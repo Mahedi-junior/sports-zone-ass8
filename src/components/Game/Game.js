@@ -20,7 +20,7 @@ const Game = (props) => {
         </div>
 
         <button onClick={() => handleAddToTime(game)} className="btn-add">
-          <p>Add to List</p>
+          <p>Add Require Time</p>
         </button>
       </div>
     </div>
