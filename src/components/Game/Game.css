@@ -16,23 +16,30 @@
 .game-info {
   padding-top: 0;
   margin: 0 14px;
-  font-weight: 500;
 }
 .game p {
+  font-weight: 600;
   margin-bottom: 0;
-  font-size: 16px;
+  /* font-size: 16px; */
   margin-top: 5px;
 }
-
+.age-time {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #2d2f2f;
+}
 .btn-add {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: #636fee;
+  background: #0d74fa;
   border: none;
   border-radius: 0px 0px 8px 8px;
   padding: 15px;
   position: absolute;
   bottom: 0;
+}
+.btn-add:hover {
+  background: rgb(23, 239, 160);
 }

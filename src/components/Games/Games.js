@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Cart from "../Cart/Cart";
 import Game from "../Game/Game";
 import "./Games.css";
 
@@ -14,18 +15,17 @@ const Games = () => {
   return (
     <div className="main-container">
       <div className="games-containe">
-        <h1>Select todays Exercise: {games.length}</h1>
+        {/* <h1>Select todays Exercise: {games.length}</h1> */}
 
         <div className="games-container">
           {games.map((game) => (
-            <Game game={game}></Game>
+            <Game game={game} key={game.id}></Game>
           ))}
         </div>
       </div>
 
       <div className="user-container">
-        <h1>User Container</h1>
-        <p></p>
+        <Cart></Cart>
       </div>
     </div>
   );
