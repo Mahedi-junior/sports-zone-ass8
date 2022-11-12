@@ -19,7 +19,6 @@ const Cart = (props) => {
 
   const breakHandler = (e) => {
     setBreakTime(e.target.innerText);
-    const value = localStorage.getItem("break");
     localStorage.setItem("break", breakTime);
   };
 

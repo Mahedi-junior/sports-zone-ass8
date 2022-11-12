@@ -12,13 +12,11 @@ const Games = () => {
       .then((res) => res.json())
       .then((data) => setGames(data));
   }, []);
-  //   console.log(games);
 
   const handleAddToTime = (game) => {
     console.log(game);
     const newCart = [...cart, game];
     setCart(newCart);
-    console.log(cart);
   };
 
   return (
