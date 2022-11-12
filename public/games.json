@@ -5,7 +5,7 @@
     "name": "Football",
     "description": "The combination of running, walking, sprinting and kicking can bring benefits including increased stamina",
     "age": "10-40",
-    "time": "90"
+    "time": 90
   },
   {
     "id": "636f1de04158c32261611454",
@@ -13,7 +13,7 @@
     "name": "Cricket",
     "description": "Stamina. Cricket involves sprinting in-between the wickets, running down your bowling line-up ..",
     "age": "10-40",
-    "time": "120"
+    "time": 120
   },
   {
     "id": "636f1de0b6db53555e810006",
@@ -21,7 +21,7 @@
     "name": "Hockey",
     "description": "Is a great workout. Hockey is a form of cardiovascular exercise, and whether you're skating or running,",
     "age": "10-40",
-    "time": "60"
+    "time": 60
   },
   {
     "id": "636f1de09839b852693a773e",
@@ -29,7 +29,7 @@
     "name": "Badminton",
     "description": "Let us look at how badminton benefits the body and how playing this sport impacts your phy...",
     "age": "10-40",
-    "time": "50"
+    "time": 50
   },
   {
     "id": "636f1de012fc4d559934d0e7",
@@ -37,7 +37,7 @@
     "name": "Golf",
     "description": "golf exercises your heart and keeps your heart rate up. This will naturally lower your risk for..",
     "age": "20-50",
-    "time": "90"
+    "time": 90
   },
   {
     "id": "636f1de012fc4d559934d0e9",
@@ -45,6 +45,6 @@
     "name": "Basketball",
     "description": "Playing basketball helps to improve motor coordination, flexibility, and endurance.",
     "age": "20-35",
-    "time": "40"
+    "time": 40
   }
 ]
