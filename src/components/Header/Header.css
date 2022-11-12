@@ -1,10 +1,10 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 90px;
   font-size: 40px;
-  padding-left: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
   margin-bottom: 30px;
   color: rgb(22, 118, 253);
 }

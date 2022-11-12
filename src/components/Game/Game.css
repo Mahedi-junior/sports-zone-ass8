@@ -1,5 +1,10 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .game {
-  width: 300px;
+  width: 310px;
   height: 490px;
   border: 2px solid #95a0a7;
   border-radius: 8px;
