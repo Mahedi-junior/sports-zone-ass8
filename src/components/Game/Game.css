@@ -39,6 +39,7 @@
   padding: 15px;
   position: absolute;
   bottom: 0;
+  color: azure;
 }
 .btn-add:hover {
   background: rgb(23, 239, 160);

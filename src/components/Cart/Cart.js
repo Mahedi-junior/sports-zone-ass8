@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import img from "../../images/mahedi.png";
 import "./Cart.css";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Cart = (props) => {
   const { cart } = props;
   //   console.log(cart);
-  const [breakTime, setBreakTime] = useState("");
+  const [breakTime, setBreakTime] = useState(" ");
+
   let time = 0;
   for (const game of cart) {
     time = time + game.time;
@@ -13,10 +17,13 @@ const Cart = (props) => {
 
   const breakHandler = (e) => {
     setBreakTime(e.target.innerText);
-
+    const value = localStorage.getItem("break");
     localStorage.setItem("break", breakTime);
   };
 
+  const notify = () => {
+    toast("Congratulations");
+  };
   return (
     <div className="admin-board">
       <div className="cart-user">
@@ -29,7 +36,7 @@ const Cart = (props) => {
       {/* <h2>History: {cart.length}</h2> */}
       <div className="admin-info">
         <div className="info">
-          <p>76kg</p>
+          <p>78kg</p>
           <p>Weight</p>
         </div>
         <div className="info">
@@ -56,7 +63,10 @@ const Cart = (props) => {
         </p>
         <p>Break time: {breakTime}</p>
       </div>
-      <button className="complete-btn">Activity Completed</button>
+      <button onClick={notify} className="complete-btn">
+        Activity Completed
+      </button>
+      <ToastContainer />
     </div>
   );
 };
