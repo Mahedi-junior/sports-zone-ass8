@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import img from "../../images/mahedi.png";
+import { faLocationPin } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Cart.css";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -26,11 +28,16 @@ const Cart = (props) => {
   };
   return (
     <div className="admin-board">
-      <div className="cart-user">
-        <img src={img} alt="" />
-        <div className="address">
-          <p>Mahedi Hasan</p>
-          <p>Faridpur,Bangladesh</p>
+      <div className="user-center">
+        <div className="cart-user">
+          <img src={img} alt="" />
+          <div className="address">
+            <p>Mahedi Hasan</p>
+            <p>
+              <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>{" "}
+              Faridpur,Bangladesh
+            </p>
+          </div>
         </div>
       </div>
       {/* <h2>History: {cart.length}</h2> */}
