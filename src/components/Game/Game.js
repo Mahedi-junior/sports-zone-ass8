@@ -2,7 +2,9 @@ import React from "react";
 import "./Game.css";
 
 const Game = (props) => {
-  const { img, name, description, age, time } = props.game;
+  const { handleAddToTime, game } = props;
+  const { img, name, description, age, time } = game;
+
   return (
     <div className="game">
       <img src={img} alt="" />
@@ -16,7 +18,7 @@ const Game = (props) => {
         </div>
       </div>
 
-      <button className="btn-add">
+      <button onClick={() => handleAddToTime(game)} className="btn-add">
         <p>Add to List</p>
       </button>
     </div>

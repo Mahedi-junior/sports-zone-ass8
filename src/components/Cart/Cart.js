@@ -1,9 +1,11 @@
 import React from "react";
 import "./Cart.css";
 
-const Cart = () => {
+const Cart = (props) => {
+  //   console.log(props);
   return (
     <div>
+      <h2>History: {props.cart.length}</h2>
       <div className="admin-info">
         <div className="info">
           <p>76kg</p>
