@@ -1,0 +1,50 @@
+[
+  {
+    "id": "636f1de0cdf624c8b698cf56",
+    "img": "https://images.pexels.com/photos/12092979/pexels-photo-12092979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Football",
+    "description": "The combination of running, walking, sprinting and kicking can bring benefits including increased stamina",
+    "age": "10-40",
+    "time": "90"
+  },
+  {
+    "id": "636f1de04158c32261611454",
+    "img": "https://images.pexels.com/photos/3718433/pexels-photo-3718433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Cricket",
+    "description": "Stamina. Cricket involves sprinting in-between the wickets, running down your bowling line-up ..",
+    "age": "10-40",
+    "time": "120"
+  },
+  {
+    "id": "636f1de0b6db53555e810006",
+    "img": "https://images.pexels.com/photos/3159812/pexels-photo-3159812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Hockey",
+    "description": "Is a great workout. Hockey is a form of cardiovascular exercise, and whether you're skating or running,",
+    "age": "10-40",
+    "time": "60"
+  },
+  {
+    "id": "636f1de09839b852693a773e",
+    "img": "https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Badminton",
+    "description": "Let us look at how badminton benefits the body and how playing this sport impacts your phy...",
+    "age": "10-40",
+    "time": "50"
+  },
+  {
+    "id": "636f1de012fc4d559934d0e7",
+    "img": "https://images.pexels.com/photos/5644642/pexels-photo-5644642.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "name": "Golf",
+    "description": "golf exercises your heart and keeps your heart rate up. This will naturally lower your risk for..",
+    "age": "20-50",
+    "time": "90"
+  },
+  {
+    "id": "636f1de012fc4d559934d0e9",
+    "img": "https://images.pexels.com/photos/5586481/pexels-photo-5586481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Basketball",
+    "description": "Playing basketball helps to improve motor coordination, flexibility, and endurance.",
+    "age": "20-35",
+    "time": "40"
+  }
+]
